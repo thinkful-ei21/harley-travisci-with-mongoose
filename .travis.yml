@@ -4,6 +4,8 @@ services:
 - mongodb
 deploy:
   provider: heroku
+  api_key:
+    secure: mssDqMD7u4l3a846KrfW2BdMiWxAnNCeCkUXjLAUBA0/A+DI+/eNBaOAGhXmzp93dBpfp91VWw/ViXG+YZOEsTdySll+nwccv5yilKytvWs9f3U2/RejfWrajYZUF6NsR1v399J11UmJc4HEwvuIobWsfLFmZM1MSuQWoEyA2YFIdzb4z4+ycOfpaUY+GdvjEpl0z+Lq4bDbR2UP8hhhOXhpIqVIpZch/F/X/d8zAHRFKsGzSh8JnWMAfgvyBfUx73QE8q04BV8+9fK5e6qX0BVvUS/iq/nTLJ7jaEbg4qMhXAFcqcMNRE7wuMnA1KofmUn10L87zsc5jhhmFC+64hMi7LHyl9jlGryB+exOO2hFJhTL2o1eZKTojjkXV7ZATSdkr0nnPtpDKlq/j9Msb19CaFT+/rWRlHrAmIgDQHzcretGfulW+PGpQFDNBRxrBesxKfs1I45lGqOQ+LUZsNh+SnuXiHEi3/HvKFWhqyBsDhz40ig6JKi3dw92U2CM2jKcGsekZg19GjHtH14cTZOclZeiwa1eKL8TafpGuoNp8/mJUvQ6w4WwT5g3OXzLN0SYhP7cswBsWAgmFAdC5+rmN8AaI0CvSH90OgVyuCJ+ZgfoqwHos35ACZTt3BpEjGiRllWb0um9dj11qgPRzmT4r4Cyo+7lbw9v34kGZic=
   app: cryptic-earth-41578
   on:
     repo: thinkful-ei21/harley-travisci-with-mongoose
